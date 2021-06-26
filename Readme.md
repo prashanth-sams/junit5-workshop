@@ -1,10 +1,10 @@
 # JUnit 5 Dumbs
 > Exercise yourself with JUnit5 framework
 
-| Exercise       | Status             |
-| -------------- | ---------          |
-| Hooks        | :white_check_mark: |
-| Parameterize      | :white_check_mark: |
+| Exercise       | Status             | Exercise       | Status             |
+| -------------- | ---------          | -------------- | ---------          |
+| Hooks        | :white_check_mark: | Assumptions        | :white_check_mark: |
+| Parameterize      | :white_check_mark: | DisableTests      | :white_check_mark: |
 | Order      | :white_check_mark: |
 
 ___

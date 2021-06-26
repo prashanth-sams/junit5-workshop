@@ -10,6 +10,7 @@ package com.junit5.parameterize;
 import org.junit.jupiter.api.TestInstance;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
+import static org.junit.jupiter.params.provider.Arguments.arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
 import java.util.Arrays;
@@ -40,7 +41,7 @@ public class ParameterizeMethods {
     }
 
     List<Arguments> argumentListValues() {
-        return Arrays.asList(Arguments.arguments("Prashanth", 32), Arguments.arguments("Sams", 31));
+        return Arrays.asList(arguments("Prashanth", 32), arguments("Sams", 31));
     }
 
     @ParameterizedTest
@@ -50,7 +51,7 @@ public class ParameterizeMethods {
     }
 
     Stream<Arguments> streamArgumentValues() {
-        return Stream.of(Arguments.arguments("Prashanth", 32), Arguments.arguments("Sams", 31));
+        return Stream.of(arguments("Prashanth", 32), arguments("Sams", 31));
     }
 
     @ParameterizedTest
