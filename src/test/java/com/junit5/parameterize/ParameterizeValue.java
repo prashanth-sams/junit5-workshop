@@ -6,7 +6,7 @@
  * shortcut for System.out.println("value = " + value); - soutp
  **/
 
-package com.dumbs.parameterize;
+package com.junit5.parameterize;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.EmptySource;

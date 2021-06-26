@@ -5,7 +5,7 @@
  *
  **/
 
-package com.dumbs.basic;
+package com.junit5.basic;
 
 import org.junit.jupiter.api.*;
 
