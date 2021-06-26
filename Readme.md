@@ -3,8 +3,8 @@
 
 | Exercise       | Status             |
 | -------------- | ---------          |
-| [Variables](https://github.com/prashanth-sams/python-dumps/tree/master/variables)      | :white_check_mark: |
-| Strings        | :white_check_mark: |
+| Hooks        | :white_check_mark: |
+| Parameterize      | :white_check_mark: |
 
 ___
 
