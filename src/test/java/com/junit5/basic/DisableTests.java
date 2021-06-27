@@ -6,13 +6,16 @@
 
 package com.junit5.basic;
 
+import listeners.Listener;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.condition.*;
+import org.junit.jupiter.api.extension.ExtendWith;
 
 import java.time.DayOfWeek;
 import java.time.LocalDateTime;
 
+@ExtendWith(Listener.class)
 public class DisableTests {
 
     @Test

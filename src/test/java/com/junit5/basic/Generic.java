@@ -3,6 +3,9 @@
  * Author - Prashanth Sams
  *
  * shortcut for System.out.println(""); - sout
+ * mvn test -Dtestpackage=com.junit5
+ * mvn test -Dtest=com.junit5.basic.Generic
+ * mvn test -Dtest=Generic
  **/
 
 package com.junit5.basic;

@@ -4,7 +4,7 @@
 | Exercise       | Status             | Exercise       | Status             | Exercise       | Status             |
 | -------------- | ---------          | -------------- | ---------          | -------------- | ---------          |
 | Hooks        | :white_check_mark: | Assumptions        | :white_check_mark: | Hamcrest        | :white_check_mark: |
-| Parameterize      | :white_check_mark: | DisableTests      | :white_check_mark: |
+| Parameterize      | :white_check_mark: | DisableTests      | :white_check_mark: | Listener      | :white_check_mark: |
 | Order      | :white_check_mark: | Repeated Tests      | :white_check_mark: |
 | Tags      | :white_check_mark: | Assertions      | :white_check_mark: |
 
