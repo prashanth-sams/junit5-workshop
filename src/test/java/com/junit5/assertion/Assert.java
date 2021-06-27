@@ -5,7 +5,7 @@
  *
  **/
 
-package com.junit5.basic;
+package com.junit5.assertion;
 
 import org.junit.jupiter.api.Test;
 
