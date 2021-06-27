@@ -6,6 +6,7 @@
 | Hooks        | :white_check_mark: | Assumptions        | :white_check_mark: |
 | Parameterize      | :white_check_mark: | DisableTests      | :white_check_mark: |
 | Order      | :white_check_mark: | Repeated Test      | :white_check_mark: |
+| Tag      | :white_check_mark: |
 
 ___
 
