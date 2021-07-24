@@ -4,21 +4,19 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.DynamicTest;
 import org.junit.jupiter.api.TestFactory;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.List;
+import java.util.*;
+import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.DynamicTest.dynamicTest;
 
-public class ReverseStringIterableTest {
+public class ReverseStringStreamsTest {
 
     ReverseString reverseString = new ReverseString();
 
     @TestFactory
-    @DisplayName("Reverse String Iterator Test")
-    public Iterable<DynamicTest> testReverseStringIterable() {
+    @DisplayName("Reverse String Stream Test")
+    public Stream<DynamicTest> testReverseStringStream() {
 
         List<String> inputList = createInputList();
         List<String> outputList = createOutputList();
@@ -36,7 +34,7 @@ public class ReverseStringIterableTest {
             dynamicTests.add(dynamicTest);
         }
 
-        return dynamicTests;
+        return dynamicTests.stream();
     }
 
     private List<String> createInputList() {

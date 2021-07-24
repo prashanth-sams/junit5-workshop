@@ -8,17 +8,18 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
+import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.DynamicTest.dynamicTest;
 
-public class ReverseStringIterableTest {
+public class ReverseStringArraysTest {
 
     ReverseString reverseString = new ReverseString();
 
     @TestFactory
-    @DisplayName("Reverse String Iterator Test")
-    public Iterable<DynamicTest> testReverseStringIterable() {
+    @DisplayName("Reverse String Array Test")
+    public DynamicTest[] testReverseStringArray() {
 
         List<String> inputList = createInputList();
         List<String> outputList = createOutputList();
@@ -36,7 +37,7 @@ public class ReverseStringIterableTest {
             dynamicTests.add(dynamicTest);
         }
 
-        return dynamicTests;
+        return dynamicTests.toArray(new DynamicTest[dynamicTests.size()]);
     }
 
     private List<String> createInputList() {
