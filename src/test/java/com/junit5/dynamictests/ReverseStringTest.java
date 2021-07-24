@@ -13,7 +13,7 @@ public class ReverseStringTest {
     ReverseString reverseString = new ReverseString();
 
     @TestFactory
-    @DisplayName("Reverse Test")
+    @DisplayName("Reverse String Test")
     public DynamicTest testReverse() {
         return dynamicTest("Dynamic Test for reverse method", () -> {
            assertEquals("gnirts a si siht", reverseString.reverse("this is a string"));
