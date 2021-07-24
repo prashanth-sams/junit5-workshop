@@ -7,7 +7,7 @@
 | Parameterize      | :white_check_mark: | DisableTests      | :white_check_mark: | Listener      | :white_check_mark: |
 | Order      | :white_check_mark: | Repeated Tests      | :white_check_mark: | Timeout      | :white_check_mark: |
 | Tags      | :white_check_mark: | Assertions      | :white_check_mark: | Nested Tests      | :white_check_mark: |
-| Annotation      | :white_check_mark: |
+| Annotation      | :white_check_mark: | DynamicTest      | :white_check_mark: |
 
 ___
 
